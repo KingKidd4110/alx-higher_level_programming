@@ -1,9 +1,12 @@
 #!/usr/bin/python3
 def safe_print_list(my_list=[], x=0):
-    for x in my_list:
-        x = x + 1
+    cnt = 0
+    for i in range(x):
         try:
-            print(x, end="")
+            print(my_list[i], end="")
+            cnt += 1
 
         except IndexError:
             print("out of range")
+            break
+    return cnt
