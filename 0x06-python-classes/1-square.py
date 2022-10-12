@@ -3,12 +3,14 @@
 
 
 class Square:
-    """perivate instance
+    """private instance
     Attributes:
         _size(int): side measure
         """
 
     def __init__(self, size):
-        """Args:
-        size(int): side measure1."""
+        """
+        Args:
+            size(int): side measure1.
+        """
         self._size = size
