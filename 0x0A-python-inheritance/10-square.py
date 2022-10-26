@@ -2,9 +2,10 @@
 """
 import and rep class Square
 """
+Rectangle = __import__('9-rectangle').Rectangle
 
 
-class Square:
+class Square(rectangle):
     """def of rep square"""
     def __init__(self, size):
         """inst of square"""
