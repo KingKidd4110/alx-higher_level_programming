@@ -25,6 +25,8 @@ except FileNotFoundError:
 add all arguments
 """
 for arg in argv[1:]:
+    """append module"""
     json_list.append(arg)
+    """saving to file"""
 
 save_to_json_file(json_list, filename)
