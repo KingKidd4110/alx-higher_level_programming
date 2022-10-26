@@ -13,5 +13,7 @@ def add_attr(obj, attr, value):
     :raises TypeError
     """
     if not hasattr(obj, "__dict__"):
+        """raise"""
         raise TypeError("can't add new attribute")
+    """return"""
     setattr(obj, attr, value)
