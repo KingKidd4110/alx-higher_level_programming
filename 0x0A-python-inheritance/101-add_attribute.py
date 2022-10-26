@@ -2,11 +2,11 @@
 """ Defines func to add attribute"""
 
 
-def add_attr(obj, attr, value):
+def add_attr(obj, atttr, value):
     """
 
     :param obj: initial obj to be added an attr
-    :param attr: (str)
+    :param atttr: (str)
     :param value: value
     :return:  nothing
 
@@ -16,4 +16,4 @@ def add_attr(obj, attr, value):
         """raise"""
         raise TypeError("can't add new attribute")
     """return"""
-    setattr(obj, attr, value)
+    setattr(obj, atttr, value)
