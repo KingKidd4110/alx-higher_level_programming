@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-const incrementAndCallFunction = (number, theFunction) => {
+function incrementAndCall(number, theFunction) {
     number++;
     theFunction(number);
-  };
+  }
